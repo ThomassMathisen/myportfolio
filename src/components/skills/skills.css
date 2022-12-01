@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap:20px;
 }
 
 .skillsTitle {
@@ -15,13 +16,19 @@
 
 table {
   display: grid;
-  border: 1px solid black;
+  gap: 10px;
+  column-gap: 25px;
 }
 
 td {
   cursor: pointer;
+
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 4px 14px -7px rgba(0,0,0,0.76);
+  -webkit-box-shadow: 3px 4px 14px -7px rgba(0,0,0,0.76);
 }
 
 td:hover {
-  transform: scale(1.1)
+  transform: scale(1.05)
 }

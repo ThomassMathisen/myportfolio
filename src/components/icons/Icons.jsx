@@ -30,12 +30,13 @@ export default function Icons() {
       </a>
       <a
         href="https://www.linkedin.com/in/thomas-storbakk-mathisen-315617106/"
+        className="linkedIn"
         style={{
-          backgroundColor: darkMode && "white",
-          color: darkMode && "#1F2937",
+          backgroundColor: darkMode && "#1F2937",
+          color: darkMode && "white",
         }}
       >
-        <LinkedIn className="linkedIn" />
+        <LinkedIn />
       </a>
     </div>
   );
