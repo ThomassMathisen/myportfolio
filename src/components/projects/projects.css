@@ -39,11 +39,12 @@
 
 .p-img {
   width: 100%;
+  object-fit: cover;
   transition: all 10s ease;
 }
 
 .p:hover .p-img {
-  transform: translateY(-100%);
+  transform: translateY(-75%);
 }
 
 @media screen and (max-width: 480px) {

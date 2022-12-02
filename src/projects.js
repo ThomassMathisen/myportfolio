@@ -1,32 +1,39 @@
+import project1 from "./img/portfolio1.png";
+import project2 from "./img/portfolio2.png";
+import project3 from "./img/portfolio3.png";
+import project4 from "./img/portfolio4.gif";
+import project5 from "./img/portfolio2.png";
+import project6 from "./img/portfolio2.png";
+
 export const projects = [
   {
     id: 1,
-    img: "https://colorlib.com/wp/wp-content/uploads/sites/2/picjumbo-free-stock-photos.jpg.webp",
-    link: "",
+    img: project1,
+    link: "https://thomassmathisen.github.io/portfolio-tailwind/",
   },
   {
     id: 2,
-    img: "https://www.oberlo.com/media/1603970279-screen-shot-2017-04-04-at-3-12-44-pm.png?w=1824&fit=max",
-    link: "",
+    img: project2,
+    link: "https://thomassmathisen.github.io/portfolio-styled-components",
   },
   {
     id: 3,
-    img: "https://colorlib.com/wp/wp-content/uploads/sites/2/unsplash-stock-photo-website.jpg.webp",
-    link: "",
+    img: project3,
+    link: "https://thomassmathisen.github.io/portfolio-css/",
   },
   {
     id: 4,
-    img: "https://colorlib.com/wp/wp-content/uploads/sites/2/pixabay-free-stock-images-royalty-free.jpg.webp",
-    link: "",
+    img: project4,
+    link: "https://thomassmathisen.github.io/weather-app/",
   },
   {
     id: 5,
-    img: "https://colorlib.com/wp/wp-content/uploads/sites/2/pexels-free-stock-photos-videos.jpg.webp",
+    img: project5,
     link: "",
   },
   {
     id: 6,
-    img: "https://colorlib.com/wp/wp-content/uploads/sites/2/isorepublic-high-resoluition-cc0-photos-vidoes.jpg.webp",
+    img: project6,
     link: "",
   },
 ];
