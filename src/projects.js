@@ -1,9 +1,9 @@
 import project1 from "./img/portfolio1.png";
 import project2 from "./img/portfolio2.png";
 import project3 from "./img/portfolio3.png";
-import project4 from "./img/portfolio4.gif";
-import project5 from "./img/portfolio2.png";
-import project6 from "./img/portfolio2.png";
+import project4 from "./img/portfolio4.png";
+import project5 from "./img/portfolio5.png";
+import project6 from "./img/portfolio6.png";
 
 export const projects = [
   {

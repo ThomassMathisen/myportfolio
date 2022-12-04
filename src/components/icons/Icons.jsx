@@ -9,16 +9,6 @@ export default function Icons() {
   return (
     <div className="iconContainer">
       <a
-        href="#intro"
-        className="logo"
-        style={{
-          backgroundColor: darkMode && "#1F2937",
-          color: darkMode && "white",
-        }}
-      >
-        myportfolio.
-      </a>
-      <a
         href="https://github.com/ThomassMathisen"
         className="github"
         style={{
@@ -37,6 +27,17 @@ export default function Icons() {
         }}
       >
         <LinkedIn />
+      </a>
+      <a
+        className="blogLink"
+        href="blog"
+        style={{
+          backgroundColor: darkMode && "#1F2937",
+          color: darkMode && "white",
+          fontFamily: "courier",
+        }}
+      >
+        blog.
       </a>
     </div>
   );
